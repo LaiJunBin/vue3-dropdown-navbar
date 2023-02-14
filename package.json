@@ -1,5 +1,12 @@
 {
   "name": "vue3-dropdown-navbar",
+  "description": "The package implements dropdown navbar, it based on Tailwind CSS.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaiJunBin/vue3-dropdown-navbar.git"
+  },
+  "author": "Lai JunBin",
+  "license": "MIT",
   "files": [
     "dist"
   ],
@@ -16,7 +23,7 @@
       "require": "./dist/preflight.umd.js"
     }
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "dev": "vite",
     "build:docs": "run-p type-check build-only",
