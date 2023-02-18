@@ -33,6 +33,7 @@ import {
   TheDropDownMenu,
   TheDropDownItem,
   TheDropDownDivideBlock,
+  TheDropDownNavbarLogo,
 } from "vue3-dropdown-navbar";
 import { ref } from "vue";
 

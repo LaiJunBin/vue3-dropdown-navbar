@@ -23,7 +23,7 @@
       "require": "./dist/preflight.umd.js"
     }
   },
-  "version": "0.1.2",
+  "version": "0.1.3",
   "scripts": {
     "dev": "vite",
     "build:docs": "run-p type-check build-only",
