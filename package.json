@@ -16,14 +16,15 @@
   "exports": {
     ".": {
       "import": "./dist/vue3-dropdown-navbar.mjs",
-      "require": "./dist/vue3-dropdown-navbar.umd.js"
+      "require": "./dist/vue3-dropdown-navbar.umd.js",
+      "types": "./dist/index.d.ts"
     },
     "./preflight.css": {
       "import": "./dist/preflight.mjs",
       "require": "./dist/preflight.umd.js"
     }
   },
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
     "dev": "vite",
     "build:docs": "run-p type-check build-only",
