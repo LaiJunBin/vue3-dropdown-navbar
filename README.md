@@ -154,3 +154,13 @@ Example
 
 ## Dark Mode
 Add `dd-nav-dark` class to &lt;html&gt; tag.
+
+---
+## Style CSP(Content Security Policy) Description
+If your website has set CSP, you need to add the following settings:
+
+```html
+    <meta property="csp-nonce" content="<your-nonce>" />
+```
+
+The automatically injected style tag will add the `nonce` attribute.

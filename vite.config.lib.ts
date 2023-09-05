@@ -41,7 +41,9 @@ export default defineConfig({
         rmSync(distPath, { recursive: true, force: true });
       },
     }),
-    cssInjectedByJsPlugin(),
+    cssInjectedByJsPlugin({
+      useStrictCSP: true,
+    }),
   ],
   resolve: {
     alias: {
